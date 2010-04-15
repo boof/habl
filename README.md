@@ -1,4 +1,4 @@
-# habel
+# Habl
 
 Shorten your XBEL by writing markup haiku.
 
@@ -20,18 +20,21 @@ This library simply renders markup haikus to xml before parsing it with XBEL.
 
 ## Install / Usage
 
-    $ gem install habel
+    $ gem install habl
 
     $ irb
-    >> require 'habel'
-    >> xbel = Habel::open 'bookmarks.xbel.haml'
+    >> require 'habl'
+    >> xbel = Habl.open 'bookmarks.xbel.haml'
 
-See http://github.com/boof/xbel and http://en.wikipedia.org/wiki/XBEL for more
-information about XBEL and http://haml-lang.com/ for HAML.
+Learn more about [Haml](http://haml-lang.com/) and
+[XML Bookmark Exchange Language](http://pyxml.sourceforge.net/topics/xbel/).
+
+This library depends on [xbel.gem](http://rubygems.org/gems/xbel) and
+[haml.gem](http://rubygems.org/gems/haml).
 
 ## Note on Patches/Pull Requests
  
-* Fork habel.
+* Fork Habl.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a future version
   unintentionally.

@@ -1,4 +1,4 @@
 require 'rubygems'
 require 'riot'
-require 'habel'
+require 'habl'
 require 'pathname'

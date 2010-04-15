@@ -5,14 +5,14 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "habel"
+    gem.name = "habl"
     gem.summary = %Q{Shorten your XBEL by writing markup haiku.}
     gem.description = %Q{This library simply renders markup haikus to xml
 before parsing it with XBEL. See http://github.com/boof/xbel and
 http://en.wikipedia.org/wiki/XBEL for more information about XBEL and
-http://haml-lang.com/ for HAML.}
+http://haml-lang.com/ for Haml.}
     gem.email = "florian.assmann@email.de"
-    gem.homepage = "http://github.com/boof/habel"
+    gem.homepage = "http://github.com/boof/habl"
     gem.authors = ["Florian Aßmann"]
     gem.add_dependency "xbel", ">= 0.2.6"
     gem.add_dependency "haml", ">= 2.2.23"

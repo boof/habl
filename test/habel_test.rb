@@ -1,14 +1,14 @@
 require 'teststrap'
 
-context "habel" do
+context "habl" do
   setup do
     dirname = Pathname File.dirname(__FILE__)
     dirname.join 'fixture.xbel.haml'
   end
-  asserts("HAML => XBEL") { XBEL === Habel::open(topic) }
+  asserts("HAML => XBEL") { XBEL === Habl::open(topic) }
 
   context "XBEL" do
-    setup { Habel::open(topic) }
+    setup { Habl::open(topic) }
     asserts("title of first folder") { topic.root.folders.first.title }.
       equals "monkey-patch.me"
   end

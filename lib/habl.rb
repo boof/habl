@@ -1,7 +1,7 @@
 require 'haml'
 require 'xbel'
 
-module Habel
+module Habl
   INTRO   = '<?xml version="1.0" encoding="utf-8" ?>' + $/
   DOCTYPE = '<!DOCTYPE xbel PUBLIC "+//IDN python.org//DTD XML Bookmark Exchange Language 1.0//EN//XML" "http://www.python.org/topics/xml/dtds/xbel-1.0.dtd">' + $/
   OPTIONS = { :attr_wrapper => '"', :ugly => true, :autoclose => [], :preserve => [] }
