@@ -26,6 +26,7 @@ http://haml-lang.com/ for Haml.}
      "README.md",
      "Rakefile",
      "VERSION",
+     "habl.gemspec",
      "lib/habl.rb",
      "test/fixture.xbel.haml",
      "test/habel_test.rb",
