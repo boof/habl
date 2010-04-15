@@ -22,15 +22,15 @@ This library simply renders markup haikus to xml before parsing it with XBEL.
 
     $ gem install habl
 
+This library depends on [xbel.gem](http://rubygems.org/gems/xbel) and
+[haml.gem](http://rubygems.org/gems/haml).
+
     $ irb
     >> require 'habl'
     >> xbel = Habl.open 'bookmarks.xbel.haml'
 
 Learn more about [Haml](http://haml-lang.com/) and
 [XML Bookmark Exchange Language](http://pyxml.sourceforge.net/topics/xbel/).
-
-This library depends on [xbel.gem](http://rubygems.org/gems/xbel) and
-[haml.gem](http://rubygems.org/gems/haml).
 
 ## Note on Patches/Pull Requests
  
