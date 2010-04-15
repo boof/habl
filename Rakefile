@@ -1,3 +1,4 @@
+#Encoding: UTF-8
 require 'rubygems'
 require 'rake'
 
@@ -5,14 +6,15 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "habel"
-    gem.summary = %Q{HAML to XBEL adapter.}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Shorten your XBEL by writing markup haiku.}
+    gem.description = %Q{}
     gem.email = "florian.assmann@email.de"
     gem.homepage = "http://github.com/boof/habel"
     gem.authors = ["Florian Aßmann"]
+    gem.add_dependency "xbel", ">= 0.2.6"
+    gem.add_dependency "haml", ">= 2.2.23"
     gem.add_development_dependency "riot", ">= 0"
     gem.add_development_dependency "yard", ">= 0"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
