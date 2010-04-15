@@ -7,7 +7,10 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "habel"
     gem.summary = %Q{Shorten your XBEL by writing markup haiku.}
-    gem.description = %Q{}
+    gem.description = %Q{This library simply renders markup haikus to xml
+before parsing it with XBEL. See http://github.com/boof/xbel and
+http://en.wikipedia.org/wiki/XBEL for more information about XBEL and
+http://haml-lang.com/ for HAML.}
     gem.email = "florian.assmann@email.de"
     gem.homepage = "http://github.com/boof/habel"
     gem.authors = ["Florian Aßmann"]
